@@ -4,12 +4,14 @@
 @charset "utf-8";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import 'modules/variables';
-
 @import
     'mixins/media-queries',
+    'modules/variables',
+    'partials/base';
+
+@import
+    'modules/lists',
     'modules/syntax-highlighting',
-    'partials/base',
     'partials/footer',
     'partials/header',
     'partials/layout',

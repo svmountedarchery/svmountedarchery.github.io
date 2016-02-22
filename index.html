@@ -4,20 +4,54 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <div class="row">
+    <div class="col-sm-6">
+      <p>
+        We are a group of aspiring horseback archers based in the San Francisco Bay Area. We give demonstrations, share resources, trade stories, and have fun together.
+      </p>
+    </div>
+    <div class="col-sm-6">
+      <img src="img/mongolia-statue.jpg">
+    </div>
+  </div>
+
+  <h2 class="section-header">Special Events</h2>
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.categories.event %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <h2 class="section-header">Ground Archery Practice</h2>
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="img/mongolia-bow.jpg">
+    </div>
+
+    <div class="col-sm-6">
+      <p>
+        We attend the practices of the Bay Area Asian Archers, which are free to attend and open to everyone. They rotate between local public archery ranges including: <a href="http://www.kingsmountainarchers.org/">Kings Mountain Archers</a> in Huddart County Park in Woodside; <a href="http://bhuarchers.org/">Bowhunters Unlimited</a> in Stevens Creek Country Park near Woodside; <a href="http://reboarchers.com/">Redwood Bowman</a> behind the Chabot Space and Science Center in Oakland; and <a href="http://sfarchers.org/">SF Archers</a> in Pacifica (there's a $5/day fee for this range). Check out the group's <a href="">Google Calendar</a> to see when and where we're meeting next!
+      </p>
+    </div>
+  </div>
+
+  <h2 class="section-header">Mounted Practice</h2>
+  <div class="row">
+    <div class="col-sm-6">
+      <p>
+        As for horseback riding, we all have individual arrangements. Some of us own horses, some lease, and some take lessons. Our group is currently looking for a place in the area where we can all practice together. While we really hope you'll join us in the search, we also hope you already know about the <a href="https://www.facebook.com/cacentaurs">California Centaurs</a>, a <a href="http://www.mountedarchery.org/">Mounted Archery Association of the Americas (MA3)</a> affiliated club based in Petaluma that gives instruction in horseback archery and holds regular practices.
+      </p>
+    </div>
+
+    <div class="col-sm-6">
+      <img src="img/mongolia-horse.jpg">
+    </div>
+  </div>
+
+
 
 </div>

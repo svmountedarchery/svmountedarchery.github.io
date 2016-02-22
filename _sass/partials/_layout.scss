@@ -1,10 +1,41 @@
 /**
  * Page content
  */
-.page-content {
-    padding: $spacing-unit 0;
-}
+ .page-content {
+  padding: $spacing-unit 0;
+ }
 
 .page-heading {
     font-size: 20px;
+}
+
+.row {
+  @extend %clearfix;
+  margin-left: -($spacing-unit / 2);
+  margin-right: -($spacing-unit / 2);
+  margin-bottom: $spacing-unit;
+
+  width: 100%;
+}
+
+.col-sm-8,
+.col-sm-6,
+.col-sm-4 {
+  box-sizing: border-box;
+  padding: 0 ($spacing-unit / 2);
+  float: left;
+  width: 50%;
+  vertical-align: center;
+}
+
+.col-sm-8 {
+  width: 66%;
+}
+
+.col-sm-6 {
+  width: 50%;
+}
+
+.col-sm-4 {
+  width: 33%;
 }

@@ -53,11 +53,22 @@
 }
 
 .post-meta {
-    font-size: $small-font-size;
     color: $grey-color;
 }
 
-.post-link {
-    display: block;
-    font-size: 24px;
+.post-categories {
+    color: $grey-color;
+
+    ul {
+        display: inline;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        background: $grey-color-light;
+        display: inline;
+        padding: 5px;
+    }
 }
