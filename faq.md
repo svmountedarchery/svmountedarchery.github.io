@@ -65,7 +65,7 @@ permalink: /faq/
     </p>
 
     <p>
-      <em>If you’re an equestrian who’s never shot an arrow ...</em> come to one of our ground archery practices! We have a limited number of loaner bows and arrows for newbies -- contact us if you’re planning on attending so we know to bring them. Or, if the timing never quit works out, most of the ranges have their own instruction programs. They’ll teach using modern techniques and equipment, which is a bit different, but it’ll give you a taste. 
+      <em>If you’re an equestrian who’s never shot an arrow ...</em> come to one of our ground archery practices! We have a limited number of loaner bows and arrows for newbies -- contact us if you’re planning on attending so we know to bring them. Or, if the timing never quite works out, most of the ranges have their own instruction programs. They’ll teach using modern techniques and equipment, which is a bit different, but it’ll give you a taste. 
     </p>
 
     <p>
@@ -78,7 +78,7 @@ permalink: /faq/
   </dt>
   <dd>
     <p>
-	  If you are serious about practicing mounted archery, become a member of the <a href="http://www.mountedarchery.org">Mounted Archery Association of the Americas</a>.  <a href="mailto:{{ site.email }}">Contact us</a> directly so we know how you are.  When we find a ranch or stable at which we can practice regularly, we will be able to form an affiliate club of the MA3. 
+	  If you are serious about practicing mounted archery, become a member of the <a href="http://www.mountedarchery.org">Mounted Archery Association of the Americas</a>. <a href="mailto:{{ site.email }}">Contact us</a> directly so we know how you are.  When we find a ranch or stable at which we can practice regularly, we will be able to form an affiliate club of the MA3. 
 	</p>
   </dd>
  
