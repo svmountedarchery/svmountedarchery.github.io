@@ -2,57 +2,57 @@
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit;
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
+  font-size: 42px;
+  letter-spacing: -1px;
+  line-height: 1;
 
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
+  @include media-query($on-laptop) {
+    font-size: 36px;
+  }
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit;
 }
 
 .post-list {
-    margin-left: 0;
-    list-style: none;
+  margin-left: 0;
+  list-style: none;
 
-    > li {
-        margin-bottom: $spacing-unit;
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+
+  .post-link {
+    display: block;
+
+    @media (min-width: $on-palm) {
+      display: inline;
     }
-
-    .post-link {
-        display: block;
-
-        @media (min-width: $on-palm) {
-            display: inline;
-        }
-    }
+  }
 }
 
 .post-meta {
-    color: $grey-color;
+  color: $grey-color;
 }
 
 .post-categories {
-    color: $grey-color;
+  color: $grey-color;
 
-    ul {
-        display: inline;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
+  ul {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
 
-    li {
-        background: $grey-color-light;
-        display: inline;
-        padding: 5px;
-    }
+  li {
+    background: $grey-color-light;
+    display: inline;
+    padding: 5px;
+  }
 }
