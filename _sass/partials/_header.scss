@@ -11,16 +11,31 @@
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    position: relative;
 
     &,
     &:visited {
         color: $grey-color-dark;
+    }
+
+    img {
+        height: 3em;
+
+        @media (min-width: $on-palm) {
+            height: 150px;
+            left: -80px;
+            position: absolute;
+        }        
+    }
+
+    @media (min-width: $on-palm) {
+        font-size: 26px;
     }
 }
 

@@ -47,6 +47,9 @@ img {
     vertical-align: middle;
 }
 
+.img-header {
+    margin-bottom: $spacing-unit / 2;
+}
 
 
 /**
@@ -85,7 +88,13 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
 
+h2 {
+    border-bottom: 1px solid $grey-color-light;
+}
 
+h3 {
+    color: $grey-color;
+}
 
 /**
  * Links
@@ -205,7 +214,20 @@ pre {
     }
 }
 
+/**
+ * Responsive utils
+ */
+ .hidden-xs {
 
-.section-header {
-    border-bottom: 1px solid $grey-color-light;
-}
+    @media (max-width: $on-palm) {
+        display: none;
+    }
+ }
+
+ .visible-sm-block {
+    display: block;
+
+    @media (min-width: $on-palm) {
+        display: none;
+    }
+ }
