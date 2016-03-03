@@ -5,5 +5,4 @@ permalink: /contact/
 ---
 
 
-Contact us! <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-
+Contact us by <a href="mailto:{{ site.email }}">Email</a> or on <a href="https://www.facebook.com/svmountedarchery/">Facebook</a>!
