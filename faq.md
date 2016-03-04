@@ -4,15 +4,42 @@ title: FAQ
 permalink: /faq/
 ---
 
+* [How do I start learning mounted archery?](#faq-learn)
+* [How can I join your club?](#faq-join)
 * [How safe is this?](#faq-safety)
 * [What breed of horse is best?](#faq-horse)
 * [What sort of bow do I need?](#faq-bow)
-* [How do I start learning mounted archery?](#faq-learn)
-* [How can I join your club?](#faq-join)
+* [What other equipment do I need?](#faq-kit)
 * [Will you do an event for us?](#faq-event)
 * [I live too far away. Where else can I do this?](#faq-maaa)
 
 <dl>
+  <dt>
+    <a name="faq-learn"></a>How do I start learning mounted archery?
+  </dt>
+  <dd>
+    <p>
+      <em>If you’re an archer who’s never been on a horse ...</em> or only gone on a few trail rides while on vacation, we recommend taking a few horseback riding lessons in the ring with an instructor to make sure it’s something you will enjoy and to which you can commit.
+    </p>
+
+    <p>
+      <em>If you’re an equestrian who’s never shot an arrow ...</em> come to one of our ground archery practices! They'll be announced on our <a href="http://www.meetup.com/Bay-Area-Mounted-Archery/">Meetup Group</a>. We have a limited number of loaner bows and arrows for newbies — let us know if you’re planning on attending so we know to bring them. Or, if the timing never quite works out, most of the ranges have their own instruction programs. They’ll teach using modern techniques and equipment, which is a bit different, but it’ll give you a taste. 
+    </p>
+
+    <p>
+      You can also wait for one of our special events, but space may be limited.
+    </p>
+  </dd>
+
+  <dt>
+    <a name="faq-join"></a>How can I join your club?
+  </dt>
+  <dd>
+    <p>
+	  If you are serious about practicing mounted archery, become a member of the <a href="http://www.mountedarchery.org">Mounted Archery Association of the Americas</a> (MA3). <a class="page-link" href="{{ site.baseurl }}/contact/">Contact us</a> directly so we know who you are or come to one of our <a href="http://www.meetup.com/Bay-Area-Mounted-Archery/">Meetups</a> to meet us in person. When we find a ranch or stable at which we can practice regularly, we will be able to form an affiliate club of the MA3. 
+	</p>
+  </dd>
+
   <dt>
     <a name="faq-safety"></a>How safe is this?
   </dt>
@@ -57,37 +84,36 @@ permalink: /faq/
   </dd>
 
   <dt>
-    <a name="faq-learn"></a>How do I start learning mounted archery?
+    <a name="faq-kit"></a>What other equipment do I need?
   </dt>
   <dd>
     <p>
-      <em>If you’re an archer who’s never been on a horse ...</em> or only gone on a few trail rides while on vacation, we recommend taking a few horseback riding lessons in the ring with an instructor to make sure it’s something you will enjoy and to which you can commit.
+      You'll need arrows, a quiver suitable for horse archery, and perhaps a bow case.  You will probably need gloves and/or a thumb ring.
     </p>
 
     <p>
-      <em>If you’re an equestrian who’s never shot an arrow ...</em> come to one of our ground archery practices! They'll be announced on our <a href="http://www.meetup.com/Bay-Area-Mounted-Archery/">Meetup Group</a>. We have a limited number of loaner bows and arrows for newbies — let us know if you’re planning on attending so we know to bring them. Or, if the timing never quite works out, most of the ranges have their own instruction programs. They’ll teach using modern techniques and equipment, which is a bit different, but it’ll give you a taste. 
+      Arrows can be purchased pre-built or you can buy the individual parts and build your own. Shafts are typically wood, bamboo, or carbon. We recommend carbon for durability and consistency. Do not get arrows meant for modern compound bows; these arrows have plastic vanes instead of feathers and will negatively affect your accuracy.
     </p>
 
     <p>
-      You can also wait for one of our special events, but space may be limited.
+      A quiver suitable for horse archery holds arrows securely near your hip or leg and allows you to pull and nock quickly while at the same time preventing the arrows from smacking your horse in the rear every stride.  Back quivers are uncommon because they tend to bounce around too much or demand too much time to pull and nock.
+    </p>
+
+    <p>
+      A bow case is not necessary, but it's a nice addition to a mounted archer's kit. It's just a case for your strung bow that attaches to your saddle.
+    </p>
+
+    <p>
+      You may desire a bow glove if you find that the fletching is cutting your bow hand.  Likewise, if your bow has a heavier draw weight you may need a glove or a thumb ring, depending on your draw technique, to protect your fingers.
     </p>
   </dd>
 
-  <dt>
-    <a name="faq-join"></a>How can I join your club?
-  </dt>
-  <dd>
-    <p>
-	  If you are serious about practicing mounted archery, become a member of the <a href="http://www.mountedarchery.org">Mounted Archery Association of the Americas</a> (MA3). <a href="mailto:{{ site.email }}">Contact us</a> directly so we know who you are or come to one of our <a href="http://www.meetup.com/Bay-Area-Mounted-Archery/">Meetups</a> to meet us in person. When we find a ranch or stable at which we can practice regularly, we will be able to form an affiliate club of the MA3. 
-	</p>
-  </dd>
- 
   <dt>
     <a name="faq-event"></a>Will you do an event for us?
   </dt>
   <dd>
     <p>
-      Contact us at <a href="mailto:{{ site.email }}">{{ site.email }}</a> and we'll see if we can make it happen.
+      <a class="page-link" href="{{ site.baseurl }}/contact/">Contact us</a> and we'll see if we can make it happen.
     </p>
   </dd>
 
@@ -105,7 +131,7 @@ permalink: /faq/
   </dt>
   <dd>
     <p>
-      Contact us! <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      <a class="page-link" href="{{ site.baseurl }}/contact/">Contact us!</a>
     </p>
   </dd>
 
