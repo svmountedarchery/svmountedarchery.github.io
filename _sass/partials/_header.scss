@@ -17,6 +17,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  left: 65px;
   position: relative;
 
   &,
@@ -29,7 +30,7 @@
 
     @media (min-width: $on-palm) {
       height: 150px;
-      left: -80px;
+      left: -65px;
       position: absolute;
     }        
   }
