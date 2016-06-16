@@ -1,12 +1,12 @@
 /**
  * Page content
  */
- .page-content {
+.page-content {
   padding: $spacing-unit 0;
  }
 
 .page-heading {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .row {
@@ -14,7 +14,6 @@
   margin-left: -($spacing-unit / 2);
   margin-right: -($spacing-unit / 2);
   margin-bottom: $spacing-unit;
-
   width: 100%;
 }
 
@@ -45,6 +44,4 @@
   .col-sm-4 {
     width: 33%;
   }
-
 }
-
