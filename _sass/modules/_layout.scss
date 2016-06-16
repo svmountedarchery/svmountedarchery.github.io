@@ -1,16 +1,8 @@
 /**
- * Page content
+ * Grid
  */
-.page-content {
-  padding: $spacing-unit 0;
- }
-
-.page-heading {
-  font-size: 20px;
-}
-
 .row {
-  @extend %clearfix;
+  @include clearfix;
   margin-left: -($spacing-unit / 2);
   margin-right: -($spacing-unit / 2);
   margin-bottom: $spacing-unit;

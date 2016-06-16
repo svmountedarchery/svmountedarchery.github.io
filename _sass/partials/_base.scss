@@ -25,6 +25,16 @@ body {
   font-kerning: normal;
 }
 
+/**
+ * Page content
+ */
+.page-content {
+  padding: $spacing-unit 0;
+ }
+
+.page-heading {
+  font-size: 20px;
+}
 
 
 /**
@@ -95,6 +105,8 @@ h2 {
 h3 {
   color: $grey-color;
 }
+
+
 
 /**
  * Links
@@ -170,26 +182,12 @@ pre {
   padding-left: $spacing-unit / 2;
 
   @media (min-width: $on-palm) {
-    @extend %clearfix;
+    @include clearfix;
     max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
-  }
-}
-
-
-
-/**
- * Clearfix
- */
-%clearfix {
-
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
   }
 }
 
@@ -211,6 +209,8 @@ pre {
     }
   }
 }
+
+
 
 /**
  * Responsive utils
