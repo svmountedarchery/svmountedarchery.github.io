@@ -1,14 +1,19 @@
 ---
 layout: default
 ---
+
+
 <article class="event" itemscope itemtype="https://schema.org/Event">
 
-  <header class="event-header">
-    <h1 class="careers-nav-linktitle" itemprop="name headline">{{ page.title }}</h1>
-  </header>
+  <div class="container">
+    <header class="event-header">
+      <h1 class="careers-nav-linktitle" itemprop="name headline">{{ page.title }}</h1>
+    </header>
 
-  <div class="careers-nav-linkcontent" itemprop="articleBody">
-    {{ content }}
+    <div class="careers-nav-linkcontent" itemprop="articleBody">
+      {{ content }}
+    </div>
   </div>
   
 </article>
+

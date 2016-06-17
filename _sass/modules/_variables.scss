@@ -15,6 +15,15 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$link-color:       $brand-color;
+$link-hover-color: $text-color;
+
+$header-font-family: "Mirza", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Layout
+$mobile-nav-height: 60px;
+$laptop-nav-height: 80px;
+
 // Width of the content area
 $content-width:    800px;
 

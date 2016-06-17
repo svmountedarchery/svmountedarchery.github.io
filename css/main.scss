@@ -3,17 +3,29 @@
 ---
 @charset "utf-8";
 
+// Fonts
+@import 'https://fonts.googleapis.com/css?family=Mirza:400,600';
+
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-    'mixins/media-queries',
-    'modules/variables',
-    'partials/base';
 
 @import
-    'modules/lists',
-    'modules/syntax-highlighting',
-    'partials/footer',
-    'partials/header',
-    'partials/layout',
-    'partials/posts'
-;
+  'modules/variables';
+
+@import
+  'vendor/normalize',
+  'vendor/skeleton';
+
+@import
+  'mixins/clearfix';
+
+@import
+  'modules/lists',
+  'modules/syntax-highlighting';
+
+@import
+  'partials/base',
+  'partials/faq',
+  'partials/footer',
+  'partials/header',
+  'partials/home',
+  'partials/posts';
