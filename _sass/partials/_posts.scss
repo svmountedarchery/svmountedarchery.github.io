@@ -2,7 +2,7 @@
  * Posts
  */
 .post-header {
-  margin-bottom: $spacing-unit;
+  margin-bottom: 0;
 }
 
 .post-title {
@@ -22,6 +22,7 @@
 .post-list {
   margin-left: 0;
   list-style: none;
+  padding: 0;
 
   > li {
     margin-bottom: $spacing-unit;

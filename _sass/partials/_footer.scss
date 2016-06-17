@@ -16,3 +16,18 @@
   list-style: none;
   margin-left: 0;
 }
+
+.contact-list {
+
+  & > li {
+    display: inline-block;
+
+    a {
+      padding: 10px;
+
+      &:first-child {
+        padding-left: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.faq-list {
+
+  dd {
+
+    .float-figure {
+      width: 33%;
+      float: right;
+      margin: 0 ($spacing-unit / 2) ($spacing-unit / 2);
+    }
+  }
+}

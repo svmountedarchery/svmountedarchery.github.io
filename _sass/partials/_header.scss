@@ -4,7 +4,8 @@
 .site-header {
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
-  min-height: 150px;
+  font-family: $header-font-family;
+  min-height: $mobile-nav-height;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -13,26 +14,18 @@
 .site-title {
   font-size: 18px;
   font-weight: 300;
-  line-height: 150px;
-  letter-spacing: -1px;
+  line-height: $mobile-nav-height;
   margin-bottom: 0;
-  float: left;
-  left: 65px;
   position: relative;
 
   &,
-  &:visited {
+  &:visited,
+  &:hover {
     color: $grey-color-dark;
   }
 
-  img {
-    height: 3em;
-
-    @media (min-width: $on-palm) {
-      height: 150px;
-      left: -65px;
-      position: absolute;
-    }        
+  .logo {
+    height: 3em; 
   }
 
   @media (min-width: $on-palm) {
@@ -41,69 +34,71 @@
 }
 
 .site-nav {
-  position: absolute;
-  top: 9px;
-  right: $spacing-unit / 2;
-  background-color: $background-color;
-  border: 1px solid $grey-color-light;
-  border-radius: 5px;
-  text-align: right;
+
+  float: right;
+  line-height: $laptop-nav-height;
+  position: relative;
 
   .menu-icon {
-    display: block;
-    float: right;
-    width: 36px;
-    height: 26px;
-    line-height: 0;
-    padding-top: 10px;
-    text-align: center;
-
-    > svg {
-      width: 18px;
-      height: 15px;
-
-      path {
-        fill: $grey-color-dark;
-      }
-    }
-  }
-
-  .trigger {
-    clear: both;
     display: none;
   }
 
-  &:hover .trigger {
-    display: block;
-    padding-bottom: 5px;
-  }
-
   .page-link {
-    display: block;
-    padding: 5px 10px;
+    color: $text-color;
+    line-height: $base-line-height;
 
+    // Gaps between nav items, but not on the last one
     &:not(:last-child) {
-      margin-right: 0;
+      margin-right: 20px;
     }
-    margin-left: 20px;
   }
 
-  @media (min-width: $on-palm) {
-    float: right;
-    line-height: 56px;
+  @media (max-width: $on-laptop) {
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    position: absolute;
+    right: $spacing-unit / 2;
+    text-align: right;
+    top: 9px;
 
     .menu-icon {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
+
+      > svg {
+        width: 18px;
+        height: 15px;
+
+        path {
+          fill: $grey-color-dark;
+        }
+      }
+    }
+
+    .trigger {
+      clear: both;
       display: none;
     }
 
-    .page-link {
-      color: $text-color;
-      line-height: $base-line-height;
+    &:hover .trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
 
-      // Gaps between nav items, but not on the last one
+    .page-link {
+      display: block;
+      padding: 5px 10px;
+
       &:not(:last-child) {
-        margin-right: 20px;
+        margin-right: 0;
       }
+      margin-left: 20px;
     }
   }
 }

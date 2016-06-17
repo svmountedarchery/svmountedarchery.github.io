@@ -1,0 +1,45 @@
+// Homepage styles
+.home {
+
+  .hero {
+    overflow: hidden;
+    width: 100%;
+
+    @media (min-width: $on-palm) {
+      background: $background-color url(/img/sage.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      overflow: hidden;
+      margin-bottom: $spacing-unit * 2;
+      margin-top: -$spacing-unit;
+
+      .text-wrapper {
+        background: rgba($background-color, 1);
+        margin: ($spacing-unit * 8) auto ($spacing-unit * 2);
+        width: 66%;
+        padding: $spacing-unit;
+        text-align: center;
+      }
+
+      .text-area {
+        background: $background-color;
+        border-top: 1px solid $grey-color-light;
+        border-bottom: 1px solid $grey-color-light;
+        margin: 0;
+        padding: ($spacing-unit / 2) 0;
+        position: relative;
+      }
+
+      .logo {
+        height: 100px;
+        position: relative;
+      }
+    }
+  }
+
+  .section-grounded {
+    overflow: hidden;
+  }
+
+}

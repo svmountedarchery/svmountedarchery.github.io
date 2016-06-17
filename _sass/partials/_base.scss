@@ -70,7 +70,12 @@ figure > img {
 }
 
 figcaption {
+  background-color: $grey-color-light;
+  color: $grey-color;
   font-size: $small-font-size;
+  margin-top: 5px;
+  padding: 5px 10px;
+  text-align: center;
 }
 
 
@@ -89,12 +94,17 @@ li {
   }
 }
 
+dd {
+  margin-left: 0;
+}
 
 
 /**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+  color: $grey-color-dark;
+  font-family: $header-font-family;
   font-weight: $base-font-weight;
 }
 
@@ -112,15 +122,16 @@ h3 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: $link-color;
   text-decoration: none;
+  position: relative;
 
   &:visited {
     color: darken($brand-color, 15%);
   }
 
   &:hover {
-    color: $text-color;
+    color: $link-hover-color;
     text-decoration: underline;
   }
 }
@@ -222,7 +233,7 @@ pre {
   }
  }
 
- .visible-sm-block {
+ .visible-xs-block {
   display: block;
 
   @media (min-width: $on-palm) {
