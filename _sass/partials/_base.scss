@@ -226,17 +226,17 @@ pre {
 /**
  * Responsive utils
  */
- .hidden-xs {
+.hidden-phone {
 
   @media (max-width: $on-palm) {
     display: none;
   }
- }
+}
 
- .visible-xs-block {
+.visible-phone-block {
   display: block;
 
   @media (min-width: $on-palm) {
     display: none;
   }
- }
+}

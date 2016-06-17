@@ -22,22 +22,23 @@
   &:visited,
   &:hover {
     color: $grey-color-dark;
+    text-decoration: none;
   }
 
   .logo {
     height: 3em; 
   }
 
-  @media (min-width: $on-palm) {
+  @media (min-width: $on-laptop) {
     font-size: 26px;
   }
 }
 
 .site-nav {
-
   float: right;
   line-height: $laptop-nav-height;
   position: relative;
+  z-index: 999;
 
   .menu-icon {
     display: none;
@@ -46,6 +47,7 @@
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
+    vertical-align: text-top;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
@@ -65,11 +67,11 @@
     .menu-icon {
       display: block;
       float: right;
-      width: 36px;
       height: 26px;
       line-height: 0;
       padding-top: 10px;
       text-align: center;
+      width: 36px;
 
       > svg {
         width: 18px;

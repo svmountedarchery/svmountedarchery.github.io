@@ -2,8 +2,13 @@
 .home {
 
   .hero {
+    margin-bottom: $spacing-unit;
     overflow: hidden;
     width: 100%;
+
+    .text-wrapper {
+      text-align: center;
+    }
 
     @media (min-width: $on-palm) {
       background: $background-color url(/img/sage.jpg);
@@ -37,9 +42,4 @@
       }
     }
   }
-
-  .section-grounded {
-    overflow: hidden;
-  }
-
 }
