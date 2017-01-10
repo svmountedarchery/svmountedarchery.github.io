@@ -1,6 +1,6 @@
 ---
 layout: event
-title:  "Bay View Pony Club Mounted Archery Workshop"
+title:  "Bay View Pony Club Mounted Archery Workshop #2"
 date:   2016-05-15 10:00:00 -0800
 categories: event
 ---
