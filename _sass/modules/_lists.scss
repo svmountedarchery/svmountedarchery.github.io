@@ -1,9 +1,24 @@
+/**
+ * Lists
+ */
+ul, ol {
+  margin-left: $spacing-unit;
+}
+
+li {
+  > ul,
+  > ol {
+     margin-bottom: 0;
+  }
+}
+
 dt {
+  color: $grey-color-dark;
   font-weight: bold;
-  margin-bottom: 10px;
 }
 
 dd {
   display: block;
   margin-bottom: $spacing-unit;
+  margin-left: 0;
 }
