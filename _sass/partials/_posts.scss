@@ -5,6 +5,10 @@
   margin-bottom: 0;
 }
 
+.post-hero {
+  margin-bottom: $spacing-unit;
+}
+
 .post-title {
   font-size: 36px;
 
@@ -23,10 +27,6 @@
   margin-left: 0;
   list-style: none;
   padding: 0;
-
-  > li {
-    margin-bottom: $spacing-unit;
-  }
 
   .post-link {
     display: block;

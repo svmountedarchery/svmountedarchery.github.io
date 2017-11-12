@@ -7,18 +7,23 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       #424242;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$overlay-background: rgba(255, 255, 255, .7);
+$brand-color:      #447799;
+$brand-contrast:    #fdfdfd;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 $link-color:       $brand-color;
-$link-hover-color: $text-color;
+$link-hover-color: $brand-color;
 
 $header-font-family: "Mirza", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Text
+$heading-color:   $text-color;
 
 // Layout
 $mobile-nav-height: 60px;

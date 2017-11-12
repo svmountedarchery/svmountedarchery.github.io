@@ -2,10 +2,10 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  background: $background-color;
   font-family: $header-font-family;
   min-height: $mobile-nav-height;
+  width: 100%;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -45,7 +45,6 @@
   }
 
   .page-link {
-    color: $text-color;
     line-height: $base-line-height;
     vertical-align: text-top;
 
@@ -56,9 +55,8 @@
   }
 
   @media (max-width: $on-laptop) {
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
+    background-color: $overlay-background;
+    border: none;
     position: absolute;
     right: $spacing-unit / 2;
     text-align: right;
@@ -95,12 +93,16 @@
 
     .page-link {
       display: block;
+      margin-left: 20px;
       padding: 5px 10px;
 
       &:not(:last-child) {
         margin-right: 0;
       }
-      margin-left: 20px;
+
+      &:after {
+        content: "";
+      }
     }
   }
 }

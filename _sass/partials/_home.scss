@@ -11,7 +11,7 @@
     }
 
     @media (min-width: $on-palm) {
-      background: $background-color url(/img/sage.jpg);
+      background: $background-color url(/img/home-centaurs-desi-1.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -20,17 +20,19 @@
       margin-top: -$spacing-unit;
 
       .text-wrapper {
-        background: rgba($background-color, 1);
-        margin: ($spacing-unit * 8) auto ($spacing-unit * 2);
-        width: 66%;
+        background: rgba($brand-color, .7);
+        color: $brand-contrast;
+        font-weight: lighter;
+        letter-spacing: 1px;
+        margin: ($spacing-unit * 6) ($spacing-unit * 2) ($spacing-unit * 2) 0;
+        width: 50%;
         padding: $spacing-unit;
         text-align: center;
       }
 
       .text-area {
-        background: $background-color;
-        border-top: 1px solid $grey-color-light;
-        border-bottom: 1px solid $grey-color-light;
+        border-top: 3px solid $brand-contrast;
+        border-bottom: 3px solid $brand-contrast;
         margin: 0;
         padding: ($spacing-unit / 2) 0;
         position: relative;
