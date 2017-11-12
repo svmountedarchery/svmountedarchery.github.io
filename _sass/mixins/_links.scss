@@ -1,0 +1,15 @@
+@mixin link-variant($link-variant-color, $link-variant-hover-color) {
+    color: $link-variant-color;
+  
+    &:visited {
+      color: darken($link-variant-color, 15%);
+    }
+  
+    &:hover {
+      color: $link-variant-hover-color;
+    }
+
+    &:before {
+      background: $link-variant-color;
+    }
+}

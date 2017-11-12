@@ -2,6 +2,7 @@
 layout: page
 title: About Mounted Archery
 permalink: /about-mounted-archery/
+headerImg: /img/about-diez-albums.jpg
 ---
 
 ### The past meets the present
@@ -20,8 +21,11 @@ Horse archery is thousands of years old. Across the Eurasian steppe from antiqui
 ## Modern competitive sport
 Today, the modern sport known as mounted archery has been revived in Asia, Europe, and America. Schools of horse archery, founded by Lajos Kassai, have spread from Hungary to the rest of Europe and beyond. In Europe and America, other mounted archery schools and clubs are forming as the sport grows in popularity.
 
+The format of competitions varies, but the most common feature a flat straightaway of at least 90m roped off into a track. Targets are positioned along this track, generally under 10m away for its edge. Riders proceed down the track one at a time at the canter or gallop and recieve points based on a combination of the their shots and time bonuses or penalties. For a comprehensive list, see the IHAA's [course database](http://www.horsebackarchery.info/coursedatabase).
+
 * [Horseback Archery](http://horsebows.com/accessories.htm), 2002, Lajos Kassai
 * [Mounted Archery in the Americas](http://amzn.com/0300151179), 2007, edited by David Gray and Lukas Novotny
 * [Horseback Archery: ancient art to modern sport](http://www.blurb.com/b/7303960-horseback-archery-ancient-art-to-modern-sport), 2016, Claire & Dan Sawyer (British Horseback Archery Association manual)
+* [Horse Archery USA (HAUSA)](https://www.horsearchery.us/)
 * [International Horseback Archery Alliance (IHAA)](http://www.horsebackarchery.info/)
 * [Mounted Archery Association of the Americas (MA3)](http://www.mountedarchery.org/)

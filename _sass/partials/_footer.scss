@@ -2,6 +2,7 @@
  * Site footer
  */
 .site-footer {
+  background: $brand-color;
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
 }
@@ -21,13 +22,14 @@
 
   & > li {
     display: inline-block;
+    padding: 10px;
+
+    &:first-child {
+      padding-left: 0;
+    }
 
     a {
-      padding: 10px;
-
-      &:first-child {
-        padding-left: 0;
-      }
+      @include link-variant($brand-contrast, $brand-contrast);
     }
   }
 }

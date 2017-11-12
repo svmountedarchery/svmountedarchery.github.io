@@ -16,7 +16,7 @@ dl, dd, ol, ul, figure {
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
-  background-color: $background-color;
+  background-color: $brand-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -30,6 +30,7 @@ body {
  * Page content
  */
 .page-content {
+  background: $background-color;
   padding: $spacing-unit 0;
  }
 
@@ -85,13 +86,9 @@ figcaption {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  color: $grey-color-dark;
+  color: $heading-color;
   font-family: $header-font-family;
   font-weight: $base-font-weight;
-}
-
-h2 {
-  border-bottom: 1px solid $grey-color-light;
 }
 
 h3 {
@@ -104,17 +101,37 @@ h3 {
  * Links
  */
 a {
-  color: $link-color;
+  @include link-variant($link-color, $link-hover-color);
+  display: inline-block;
   text-decoration: none;
+  transition: color .5s;
   position: relative;
 
-  &:visited {
-    color: darken($brand-color, 15%);
+  &:hover {
+    text-decoration: none;
+
+    &:before {
+      width: 100%;
+    }
   }
 
-  &:hover {
-    color: $link-hover-color;
-    text-decoration: underline;
+  &:before {
+    bottom: 0px;
+    content:"";
+    display: block;
+    height: 2px;
+    left: 0;
+    opacity: .7;
+    position: absolute;
+    transition: width .1s;
+    width: 0;
+  }
+
+  &.no-frills {
+
+    &:before {
+      display: none;
+    }
   }
 }
 
@@ -221,4 +238,14 @@ pre {
   @media (min-width: $on-palm) {
     display: none;
   }
+}
+
+
+/**
+ * Fancy header for about ma
+ */
+.hero-fade-in {
+  position: absolute;
+  z-index: -1;
+
 }
