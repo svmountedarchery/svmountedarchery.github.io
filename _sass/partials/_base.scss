@@ -107,7 +107,6 @@ h3 {
  */
 a {
   @include link-variant($link-color, $link-hover-color);
-  display: inline-block;
   text-decoration: none;
   transition: color .5s;
   position: relative;
