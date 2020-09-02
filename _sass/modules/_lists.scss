@@ -2,7 +2,11 @@
  * Lists
  */
 ul, ol {
-  margin-left: $spacing-unit;
+  margin: $spacing-unit;
+}
+
+li + li {
+  margin-top: $spacing-unit / 2;
 }
 
 li {

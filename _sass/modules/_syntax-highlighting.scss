@@ -1,6 +1,13 @@
 /**
  * Syntax highlighting styles
  */
+.extra-strong {
+  margin: $spacing-unit / 2 0;
+  border: 2px solid $brand-color;
+  padding: $spacing-unit / 2;
+}
+
+
 .highlight {
   background: #fff;
   @extend %vertical-rhythm;

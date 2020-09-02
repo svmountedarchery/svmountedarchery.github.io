@@ -1,0 +1,9 @@
+.alert {
+  padding: $spacing-unit;
+  text-align: center;
+
+  &.bad-news {
+    background-color: $danger-color;
+    color: $brand-contrast;
+  }
+}

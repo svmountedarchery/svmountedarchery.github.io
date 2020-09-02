@@ -20,11 +20,14 @@
   'mixins/links';
 
 @import
+  'partials/base';
+
+@import
   'modules/lists',
   'modules/syntax-highlighting';
 
 @import
-  'partials/base',
+  'partials/alert',
   'partials/faq',
   'partials/footer',
   'partials/header',
